@@ -1,0 +1,29 @@
+{
+  "name": "bd-filter",
+  "version": "1.0.0",
+  "description": "An API for abstracting queries on a database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronald677br/bd-filter.git"
+  },
+  "keywords": [
+    "bd",
+    "database",
+    "api",
+    "filter"
+  ],
+  "author": "Ronaldo Manfredini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronald677br/bd-filter/issues"
+  },
+  "homepage": "https://github.com/ronald677br/bd-filter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

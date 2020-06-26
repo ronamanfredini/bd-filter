@@ -1,0 +1,18 @@
+Let's have some fun.
+Definitions for the database filtering project.
+
+Every request shall have the following properties:
+{
+	"filterId": "[id]", -> unique identifier used to identify with the API model configuration
+	"condition": "[comparator]", => =, <, >, between...
+	"value": "[value]", => the actual value to compare with the data on the database,
+}
+
+Every model shall be defined with the following properties
+{
+	"acceptedComparators": [], => vector with the accepted comparators (<, >, =, between...)
+	"dataType": "[type]", => string with the data type used to compare with this item on the database
+	"table": "[complete table name, eg: public.clients]",
+	"propertyName": "[name of property to be compared on database, eg: age]",
+	"conflictsWith": [] => vector with the name of tables that this particular filter can conflict,
+}
